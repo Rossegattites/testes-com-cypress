@@ -4,14 +4,15 @@
   "description": "E2E framework testing cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "cypress:runChrome": "cypress run --browser chrome --spec cypress/e2e/teste1.cy.js"
     
   },
   "keywords": [
     "e2e",
     "automation",
     "testing",
-    "fraamework",
+    "fraamework", 
     "cypress"
   ],
   "author": "rosse gattites",
